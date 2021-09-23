@@ -1,9 +1,9 @@
 package vagetables;
 
-abstract class Vegetable {
+public abstract class Vegetable {
     protected Integer caloricContent;
-    public int weight;
-    public Vegetable(int weight_val){
+    public Integer weight;
+    public Vegetable(Integer weight_val){
         weight = weight_val;
     }
     abstract public Integer getCaloricContent();

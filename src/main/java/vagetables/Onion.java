@@ -1,7 +1,7 @@
 package vagetables;
 
 public class Onion extends Vegetable{
-    public Onion(int weight_val) {
+    public Onion(Integer weight_val) {
         super(weight_val);
     }
 
